@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 
 /* 
-   1) useEffect sem parametro no array de dependencia é igual ao componente Didmount
-   2) useEffect com um parametro ou mais no array de dependencia é mais ou menos igual ao DidUpdate
-   3) useEffect com componenteWillUnmount
+   1) useEffect sem parametro no array de dependencia é igual ao ComponentDidMount()
+   2) useEffect com um parametro ou mais no array de dependencia é mais ou menos igual ao ComponentDidUpdate()
+   3) useEffect comparado ao componentWillUnmount
 */
 
 export default function EffectExample() {
